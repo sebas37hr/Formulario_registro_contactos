@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Formulario</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg seccionpage">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand">Formulario de Registros</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            </div>
+        </div>
+    </nav>
+    <!-- Product section-->
+
+    <section class="py-5 seccionpage">
+        <div class="container">
+            <div class="row">
+                <!-- Formulario-->
+                <div class="col-md-8 cont-form">
+                    <br>
+                    <form>
+                        <br>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm">
+                                    <div class="form-group">
+                                        <input type="label" class="single-line-input" id="txtname" placeholder="Nombre">
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="form-group">
+                                        <input type="label" class="single-line-input" id="txtlastname"
+                                            placeholder="Apellido">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm">
+                                    <div class="form-group">
+                                        <input type="label" class="single-line-input" id="lblapodo" placeholder="Apodo">
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="form-group">
+                                        <input type="number" class="single-line-input" id="lblmovil"
+                                            placeholder="Ingrese numero">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="single-line-input" id="lblemail" aria-describedby="emailHelp"
+                                    placeholder="Ingrese email">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="single-line-input" id="lbldireccion"
+                                    placeholder="Ingrese Direccion">
+                            </div>
+                            <div class="row">
+                                <div class="col-sm">
+                                    <div class="form-group">
+                                        <select class="single-line-input" id="selecDepartamento">
+                                            <option>Selecciones Departamento</option>
+                                            <option>Antioquia</option>
+                                            <option>Santander</option>
+                                            <option>Bolivar</option>
+                                            <option>Caqueta</option>
+                                            <option>Cesar</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="form-group">
+                                        <select class="single-line-input" id="selectCiudad">
+                                            <option>Seleccione Ciudad</option>
+                                            <option>Medellin</option>
+                                            <option>Sopetran</option>
+                                            <option>Cartagena</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-5">
+                                    <div class="form-group">
+                                        
+                                        <select class="single-line-input" id="selecDepartamento">
+                                            <option>Selecciones Contacto relacionado</option>
+                                            <option>Yuliet Zueleta</option>
+                                            <option>Jhojan Usuga</option>
+                                            <option>Sebastian Hernandez</option>
+                                            <option>Carlos Perez</option>
+                                            <option>Manuala Miranda</option>
+                                        </select>
+                                    </div>
+
+                                </div>
+                                <div class="col-sm-1">
+                                    <a class="btn-agregar" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        +
+                                      </a>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="form-group">
+                                        <select class="single-line-input" id="selectCiudad">
+                                            <option>Seleccione Tipo de relacion</option>
+                                            <option>Felte</option>
+                                            <option>Novio</option>
+                                            <option>Casi Algo</option>
+                                            <option>Relacion sexo afectiva</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="row">
+                                <div class="collapse" id="collapseExample">
+                                    <div class="text-light">
+                                      <h2>Agregar Contacto Relacionado</h2>
+                                      <br>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <div class="form-group">
+                                                <input type="label" class="single-line-input" id="txtname" placeholder="Nombre">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm">
+                                            <div class="form-group">
+                                                <input type="label" class="single-line-input" id="txtlastname"
+                                                    placeholder="Movil">
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                  </div>
+                            </div>
+                            <br>
+                            <br>
+                            <button type="submit" class="btn-degradado">Agregar Contacto</button>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4 cont-text">
+                    <div class="container">
+                        <br>
+                        <img class="imagen-circular" src="/assets/Telefono.jpg" alt="Descripción de la imagen">
+                        <h1 class="display-5 fw-bolder textcolor">Fromulario Contactos</h1>
+                        <p class="lead textcolor">Registra Personal. </p>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <button type="submit" onclick="location.href='/Update_contacts.html'" class="btn-degradado">Actualiza contactos</button>
+                        <br>
+                        <button type="submit" onclick="location.href='/list_contacts.html'"
+                            class="btn-degradado">Contactos Registrados</button>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5 seccionpage">
+
+    </section>
+
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Sitio de Programadores 2024</p>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+
+  
+   
+</body>
+
+</html>
